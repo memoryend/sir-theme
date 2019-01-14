@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* 새글 스킨 (latest) */
+
+.lat {width: 873px; height: 274px;position:relative;margin-bottom:20px;overflow:hidden;border: 1px solid #c6cacc;background:#fff; padding-top: 20px}
+.lat .lat_title {padding:0 20px;font-size:1.083em;background:#fcfcfc; position: absolute; top: 40px; left: 30px;}
+.lat .lat_title a{color:#555; font-size: 18px; font-weight: bold;display:inline-block;position:relative;}
+.lat ul{width: 730px; padding:15px; 20px; float: right;}
+.lat ul:after{content:"";display: block; clear: both;}
+.lat li {width: 33.33%;float: left;height: 200px;position:relative;line-height:18px;padding:10px 15px;
+font-size: 16px;font-weight: bold; border-left: 1px solid #ccc;}
+.lat li:first-child{border: none;}
+.lat li a:hover{color:#a22121}
+.lat li .fa-heart{color:#ff0000;}
+.lat li .fa-lock{display: inline-block;line-height: 14px;width: 16px;font-size: 0.833em;color: #4f818c;background: #cbe3e8;text-align: center;border-radius: 2px;font-size: 12px;border:1px solid #a2c6ce}
+.lat li .new_icon{display:inline-block;width: 16px;line-height:16px;font-size:0.833em;color:#ffff00;background:#6db142;text-align:center;border-radius: 2px;}
+.lat li .hot_icon{display:inline-block;width: 16px;line-height:16px ;font-size:0.833em;color:#fff;background:#e52955;text-align:center;border-radius: 2px;}
+.lat li .fa-caret-right{color:#bbb}
+.lat p{font-size: 14px; font-weight: normal; padding-top: 40px;}
+.lat .lt_date{color:#888; font-size: 11px; padding-top: 40px; display: block;}
+.lat  .empty_li{line-height:145px ;color:#666;text-align:center;padding:0;}
+.lat  .empty_li:before{background:none;padding:0}
+
+.lat .lt_cmt{background:#5c85c1;color:#fff; font-size:11px;height:16px;line-height:16px;padding:0 5px;border-radius:3px;
+-webkit-box-shadow: inset 0 2px 5px  rgba(255,255,255,0.4);
+-moz-box-shadow: inset 0 2px 5px  rgba(255,255,255,0.4);
+box-shadow: inset 0 2px 5px  rgba(255,255,255,0.4);}
+.lat .lt_more {position:absolute;top:80px;left:51px;display:block;width:23px; height: 23px; background: url(img/more_btn.png) 0 -23px no-repeat; text-indent: -9999px;}
+.lat .lt_more:hover{background: url(img/more_btn.png) 0 0 no-repeat}
